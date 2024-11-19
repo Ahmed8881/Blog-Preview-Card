@@ -15,14 +15,81 @@
  }
  section{
   background-color: white;
-  width: 34rem;
+  width: 23rem;
   margin: 0 auto;
   position: relative;
   top: 12rem;
- }
+  border-radius: 7px;
+  border: 2px solid #000; /* Uniform border */
+  box-shadow: 5px 0 0 #000; /* Simulates the thicker bottom border */
+border-bottom-left-radius: 5px;
+border-bottom-right-radius: 4px;
+
+}
+
+
+ 
  .display{
-  
+  border-radius: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
+ 
+
  }
+.learning{
+  background-color: #F6D050;
+  font-weight: bold;
+display: inline;
+padding: 5px;
+position: relative;
+left: 20px;
+top: 10px;
+border-radius: 5px;
+font-family: 'Figtree-Bold.ttf', sans-serif;
+
+}
+.date{
+  position: relative;
+  top: 20px;
+  left: 20px;
+font-family: 'Figtree-Bold.ttf', sans-serif;
+ 
+}
+.title{
+  position: relative;
+  top: 20px;
+  left: 20px;
+ 
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+pre{
+  display: inline;
+  color: gray;
+  text-align: left;
+  margin-left: 20px;
+  font-weight:400;
+  font-family: 'Figtree-Italic-VariableFont_wght.ttf', sans-serif;
+  
+}
+.footer{
+  display: flex;
+  position: relative;
+  left: 20px;
+}
+.footer img{
+  position: relative;
+  
+  width: 3rem;
+  height: 3rem;
+  margin-right: 1rem;
+}
+.footer h3{
+font-weight: bold; 
+font-size: 10px;
+}
  </style>
   
 </head>
@@ -30,12 +97,24 @@
   <main>
     <section>
       <img class="display" src="/assets/images/illustration-article.svg" alt="">
-      <div></div>
-      <h1></h1>
-      <p></p>
-      <div>
-        <img src="" alt="">
-        <h3></h3>
+      <div class="learning">Learning</div>
+      <div class="date">
+        Published 21 Dec 2023
+
+      </div>
+      <h1 class="title">
+  HTML & CSS foundations
+        
+      </h1>
+      <pre>
+These languages are the backbone of every 
+     website, defining structure, content, and 
+     presentation.
+
+      </pre>
+      <div class="footer">
+        <img src="assets/images/image-avatar.webp" alt="">
+        <h3>Ahmed Butt</h3>
       </div>
     </section>
   <section></section>
@@ -49,11 +128,8 @@
   </div>
     Learning
 
-  Published 21 Dec 2023
 
-  HTML & CSS foundations
 
-  These languages are the backbone of every website, defining structure, content, and presentation.
 
   Greg Hooper
   -->
